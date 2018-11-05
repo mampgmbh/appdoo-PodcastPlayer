@@ -1,0 +1,2077 @@
+{
+  "$type" : "Project",
+  "tabBarController" : {
+    "$id" : "TabBarController",
+    "tabBar" : {
+      "$type" : "UITabBar",
+      "position" : {
+        "top" : 519,
+        "left" : 0
+      },
+      "hidden" : false,
+      "frame" : {
+        "origin" : {
+          "x" : 0,
+          "y" : 519
+        },
+        "size" : {
+          "width" : 320,
+          "height" : 49
+        }
+      },
+      "$id" : "UITabBar6007",
+      "barStyle" : 0,
+      "heightIsEditable" : false,
+      "$domain" : "appDoo.iOS",
+      "userInteractionEnabled" : true,
+      "autoresizingMask" : 2,
+      "size" : {
+        "width" : 320,
+        "height" : 49
+      }
+    },
+    "$type" : "UITabBarController",
+    "$domain" : "appDoo.iOS"
+  },
+  "scenes" : [
+    {
+      "$id" : "Scene1",
+      "positionOnOverview" : {
+        "top" : 75,
+        "left" : -440
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "supportedInterfaceOrientations" : 2,
+      "showsTabBar" : false,
+      "$domain" : "appDoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "segues" : [
+        {
+          "destinationSceneID" : "Scene10197",
+          "viewID" : "UITableView10044",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "destinationSceneID" : "Scene10042",
+          "viewID" : "UIBarButtonItem10101",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        }
+      ],
+      "hasCustomInterfaceOrientations" : false,
+      "objects" : [
+        {
+          "$type" : "RSS2DataSource",
+          "location" : "remote",
+          "URLRequest" : {
+            "$type" : "URLRequest",
+            "$domain" : "Core",
+            "URL" : "https:\/\/www.nasa.gov\/rss\/dyn\/Houston-We-Have-a-Podcast.rss"
+          },
+          "$id" : "RSS2DataSource10043",
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appDoo"
+          },
+          "$domain" : "info.appdoo-mac",
+          "lastCheckWasValid" : "Houston We Have a Podcast",
+          "name" : "Houston We Have a Podcast"
+        }
+      ],
+      "viewController" : {
+        "$id" : "UIViewController1",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem9436",
+          "title" : "Houston We Have a Podcast",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "Houston We Have a Podcast",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "$id" : "UIView6636",
+          "$type" : "SceneRootView",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(27,60,140,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : -2,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : -2
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 121
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel11113",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(27,60,140,1.00)",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Background image",
+              "size" : {
+                "width" : 320,
+                "height" : 121
+              },
+              "alpha" : 1,
+              "fontSize" : 100,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "🛰",
+              "numberOfLines" : 0
+            },
+            {
+              "cellPrototype" : {
+                "isExpandedInEditorOutline" : true,
+                "$id" : "TableViewCellContentView10046",
+                "style" : {
+                  "backgroundColor" : "rgba(255,255,255,0)"
+                },
+                "dataset" : {
+                  "enclosure" : {
+                    "type" : "audio\/mpeg",
+                    "url" : "http:\/\/www.nasa.gov\/sites\/default\/files\/atoms\/audio\/ep69_navigating_deep_space.mp3"
+                  },
+                  "title" : "Navigating Deep Space",
+                  "description" : "Dr. Greg Holt, Navigation Lead for the Orion spacecraft, discusses how the vehicle finds its way through deep space and communicates with Earth along the way. HWHAP Episode 69.",
+                  "link" : "http:\/\/www.nasa.gov\/johnson\/HWHAP\/navigating-deep-space"
+                },
+                "isPrototype" : true,
+                "backgroundColor" : "rgba(254,255,255,1.00)",
+                "$domain" : "appDoo.iOS",
+                "frame" : {
+                  "origin" : {
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  "size" : {
+                    "width" : 287,
+                    "height" : 44
+                  }
+                },
+                "position" : {
+                  "top" : 90
+                },
+                "subviews" : [
+                  {
+                    "layoutMode" : "multiLine",
+                    "position" : {
+                      "top" : 0,
+                      "left" : 49
+                    },
+                    "fontName" : "_DEFAULT_",
+                    "$type" : "UILabel",
+                    "frame" : {
+                      "origin" : {
+                        "x" : 49,
+                        "y" : 0
+                      },
+                      "size" : {
+                        "width" : 238,
+                        "height" : 44
+                      }
+                    },
+                    "hidden" : false,
+                    "$id" : "UILabel10045",
+                    "textColor" : "rgba(27,60,140,1.00)",
+                    "$domain" : "appDoo.iOS",
+                    "bindings" : [
+                      {
+                        "destination" : "RSS2DataSource10043",
+                        "destinationKeyPath" : "title",
+                        "sourceKeyPath" : "text",
+                        "enumerableItemAccess" : true
+                      }
+                    ],
+                    "heightIsEditable" : true,
+                    "userInteractionEnabled" : true,
+                    "textAlignment" : "",
+                    "size" : {
+                      "width" : 238,
+                      "height" : 44
+                    },
+                    "fontSize" : 14,
+                    "autoresizingMask" : 2,
+                    "fontFamily" : "System",
+                    "autoFitWidth" : false,
+                    "text" : "Navigating Deep Space",
+                    "numberOfLines" : 0
+                  },
+                  {
+                    "$id" : "UILabel10335",
+                    "userInteractionEnabled" : true,
+                    "$type" : "UILabel",
+                    "textAlignment" : "left",
+                    "frame" : {
+                      "origin" : {
+                        "x" : 15,
+                        "y" : 12
+                      },
+                      "size" : {
+                        "width" : 29,
+                        "height" : 20
+                      }
+                    },
+                    "$domain" : "appDoo.iOS",
+                    "autoresizingMask" : 20,
+                    "position" : {
+                      "top" : 12,
+                      "left" : 15
+                    },
+                    "size" : {
+                      "width" : 29,
+                      "height" : 20
+                    },
+                    "heightIsEditable" : false,
+                    "numberOfLines" : 0,
+                    "layoutMode" : "autoFitHeight",
+                    "text" : "💫",
+                    "hidden" : false,
+                    "fontSize" : 15,
+                    "fontName" : "_DEFAULT_",
+                    "autoFitWidth" : false,
+                    "name" : "Icon",
+                    "fontFamily" : "System"
+                  }
+                ],
+                "indexPath" : {
+                  "section" : 0,
+                  "item" : 0
+                },
+                "size" : {
+                  "width" : 287,
+                  "height" : 44
+                },
+                "heightIsEditable" : true,
+                "scrollTop" : 0,
+                "$type" : "TableViewCellContentView",
+                "hidden" : false,
+                "modalTransitionStyle" : "-1",
+                "userInteractionEnabled" : true,
+                "scrollLeft" : 0
+              },
+              "detailSceneID" : "Scene10197",
+              "position" : {
+                "top" : -2,
+                "left" : 0
+              },
+              "$type" : "UITableView",
+              "insetTop" : 0,
+              "rowHeight" : 44,
+              "pullToRefresh" : true,
+              "separatorInsetLeft" : 15,
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(27,60,140,0.00)",
+              "$id" : "UITableView10044",
+              "hidden" : false,
+              "allowsSelection" : true,
+              "transform" : "",
+              "isPreparing" : true,
+              "scrollTop" : 0,
+              "selectable" : false,
+              "isExpandedInEditorOutline" : true,
+              "numberOfStaticSections" : 1,
+              "size" : {
+                "width" : 320,
+                "height" : 504
+              },
+              "alpha" : 1,
+              "insetBottom" : 0,
+              "autoresizingMask" : 18,
+              "usesDefaultSeparatorInsets" : true,
+              "usesDataSource" : true,
+              "listHeaderView" : {
+                "isExpandedInEditorOutline" : true,
+                "$id" : "TableViewHeaderView10270",
+                "$type" : "TableViewHeaderView",
+                "position" : {
+                  "top" : 0
+                },
+                "backgroundColor" : "rgba(27,60,140,1.00)",
+                "$domain" : "appDoo.iOS",
+                "frame" : {
+                  "origin" : {
+                    "y" : 0
+                  },
+                  "size" : {
+                    "width" : 320,
+                    "height" : 90
+                  }
+                },
+                "subviews" : [
+                  {
+                    "layoutMode" : "multiLine",
+                    "position" : {
+                      "top" : 15,
+                      "left" : 15
+                    },
+                    "fontName" : "_DEFAULT_",
+                    "$type" : "UILabel",
+                    "frame" : {
+                      "origin" : {
+                        "x" : 15,
+                        "y" : 15
+                      },
+                      "size" : {
+                        "width" : 290,
+                        "height" : 60
+                      }
+                    },
+                    "hidden" : false,
+                    "$id" : "UILabel10313",
+                    "textColor" : "rgba(254,255,255,1.00)",
+                    "$domain" : "appDoo.iOS",
+                    "backgroundColor" : "rgba(27,60,140,1.00)",
+                    "heightIsEditable" : true,
+                    "bindings" : [
+                      {
+                        "destination" : "RSS2DataSource10043",
+                        "sourceKeyPath" : "text",
+                        "destinationKeyPath" : "contents.description"
+                      }
+                    ],
+                    "transform" : "",
+                    "textAlignment" : "center",
+                    "userInteractionEnabled" : true,
+                    "size" : {
+                      "width" : 290,
+                      "height" : 60
+                    },
+                    "alpha" : 1,
+                    "fontSize" : 13,
+                    "autoresizingMask" : 18,
+                    "fontFamily" : "System",
+                    "autoFitWidth" : false,
+                    "text" : "The official podcast of the NASA Johnson Space Center, the home of human spaceflight, stationed in Houston, Texas. We bring space right to you!",
+                    "numberOfLines" : 0
+                  }
+                ],
+                "transform" : "",
+                "cellType" : "Header",
+                "heightIsEditable" : true,
+                "scrollTop" : 0,
+                "size" : {
+                  "width" : 320,
+                  "height" : 90
+                },
+                "alpha" : 1,
+                "hidden" : false,
+                "userInteractionEnabled" : true,
+                "scrollLeft" : 0
+              },
+              "totalHeight" : 3169,
+              "modalTransitionStyle" : "-1",
+              "dataSourceId" : "RSS2DataSource10043",
+              "scrollLeft" : 0,
+              "staticSections" : [
+                {
+                  "$domain" : "appDoo.iOS",
+                  "staticCells" : [
+                    {
+                      "isExpandedInEditorOutline" : true,
+                      "$id" : "TableViewCellContentView10048",
+                      "$type" : "TableViewCellContentView",
+                      "position" : {
+                        "top" : 0,
+                        "left" : 0
+                      },
+                      "frame" : {
+                        "origin" : {
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "size" : {
+                          "width" : 320,
+                          "height" : 44
+                        }
+                      },
+                      "$domain" : "appDoo.iOS",
+                      "autoresizingMask" : 2,
+                      "subviews" : [
+                        {
+                          "layoutMode" : "multiLine",
+                          "position" : {
+                            "top" : 11,
+                            "left" : 15
+                          },
+                          "fontName" : "_DEFAULT_BOLD_",
+                          "$type" : "UILabel",
+                          "frame" : {
+                            "origin" : {
+                              "x" : 15,
+                              "y" : 11
+                            },
+                            "size" : {
+                              "width" : 290,
+                              "height" : 22
+                            }
+                          },
+                          "hidden" : false,
+                          "$id" : "UILabel10047",
+                          "$domain" : "appDoo.iOS",
+                          "heightIsEditable" : true,
+                          "transform" : "",
+                          "textAlignment" : "",
+                          "userInteractionEnabled" : true,
+                          "size" : {
+                            "width" : 290,
+                            "height" : 22
+                          },
+                          "alpha" : 1,
+                          "fontSize" : 17,
+                          "autoresizingMask" : 36,
+                          "fontFamily" : "System",
+                          "autoFitWidth" : false,
+                          "text" : "Zeile",
+                          "numberOfLines" : 0
+                        }
+                      ],
+                      "transform" : "",
+                      "size" : {
+                        "width" : 320,
+                        "height" : 44
+                      },
+                      "heightIsEditable" : true,
+                      "scrollTop" : 0,
+                      "alpha" : 1,
+                      "hidden" : false,
+                      "modalTransitionStyle" : "-1",
+                      "userInteractionEnabled" : true,
+                      "scrollLeft" : 0
+                    }
+                  ],
+                  "numberOfStaticCells" : 1,
+                  "isExpandedInEditorOutline" : true,
+                  "$type" : "UITableViewSection",
+                  "$id" : "UITableViewSection10049"
+                }
+              ]
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "name" : "Ansicht",
+          "scrollLeft" : 0
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "v_showsInTabBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar7703",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Houston We Have a Podcast",
+        "tintColor" : "rgba(27,60,140,1.00)",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$id" : "UINavigationItem1",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "add",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItem10101",
+                "title" : "Info",
+                "actionInfo" : {
+                  "$type" : "ActionInfo",
+                  "actionType" : "showScene",
+                  "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                  "destinationSceneID" : "Scene10042",
+                  "$domain" : "appDoo",
+                  "objectActionID" : "",
+                  "type" : "showScene"
+                },
+                "$domain" : "appDoo.iOS",
+                "itemType" : "text"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "selectedObjectIDs" : [
+        "UITableView10044"
+      ],
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scene10197",
+      "positionOnOverview" : {
+        "top" : 72,
+        "left" : 5
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "$domain" : "appDoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "segues" : [
+        {
+          "destinationSceneID" : "Scene11705",
+          "viewID" : "UIBarButtonItem10319",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "destinationSceneID" : "Scene11705",
+          "viewID" : "UIButton10044",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        }
+      ],
+      "hasCustomInterfaceOrientations" : false,
+      "objects" : [
+        {
+          "$type" : "SceneInputDataSource",
+          "location" : "local",
+          "indexPath" : {
+            "section" : 0,
+            "item" : 0,
+            "$type" : "NSIndexPath",
+            "$domain" : "appDoo.iOS"
+          },
+          "originalDataSourceID" : "RSS2DataSource10043",
+          "$id" : "Scene10197InputData",
+          "URLRequest" : {
+            "$type" : "URLRequest",
+            "$domain" : "Core"
+          },
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appDoo"
+          },
+          "$domain" : "appDoo",
+          "contents" : {
+            "enclosure" : {
+              "type" : "audio\/mpeg",
+              "url" : "http:\/\/www.nasa.gov\/sites\/default\/files\/atoms\/audio\/ep20_special_delivery.mp3"
+            },
+            "title" : "Special Delivery with NASA in Silicon Valley",
+            "description" : "Shane Kimbrough, NASA Astronaut, and Dennis Leveson-Gower, Senior Project Scientist at NASA's Ames Research Center, talk about cargo and science going to and from the International Space Station. Houston We Have a Podcast teams up with NASA in Silicon Valley Podcast. HWHAP Episode 20.",
+            "link" : "http:\/\/www.nasa.gov\/johnson\/HWHAP\/special-delivery"
+          }
+        },
+        {
+          "$id" : "SimpleAnimation11835",
+          "animationKeyPaths" : {
+            "opacity" : true
+          },
+          "$domain" : "info.appdoo-mac",
+          "viewID" : "UILabel11834",
+          "remainInFinalState" : true,
+          "currentAnimationProgress" : 0,
+          "animationRepeats" : true,
+          "animationStartsImmediately" : true,
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appDoo"
+          },
+          "animationTimingFunction" : "ease-in-out",
+          "animationRepeatsInReverse" : true,
+          "animationDurationMsec" : 1000,
+          "animationValues" : {
+            "opacity" : 0,
+            "scaleX" : 100,
+            "scaleY" : 100
+          },
+          "name" : "Animation - buffering",
+          "$type" : "SimpleAnimation"
+        },
+        {
+          "$id" : "ActionSet11850",
+          "actionInfos" : [
+            {
+              "$type" : "ActionInfo",
+              "actionType" : "objectAction",
+              "modalTransitionStyle" : "-1",
+              "$domain" : "appDoo",
+              "objectActionID" : "pause",
+              "type" : "objectAction",
+              "objectID" : "MoviePlayerView10226"
+            },
+            {
+              "$type" : "ActionInfo",
+              "actionType" : "showScene",
+              "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+              "transferDataSourceID" : "Scene10197InputData",
+              "destinationSceneID" : "Scene11705",
+              "$domain" : "appDoo",
+              "objectActionID" : "",
+              "transfersDataAsInput" : true,
+              "type" : "showScene"
+            }
+          ],
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appDoo"
+          },
+          "$type" : "ActionSet",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "$type" : "ActivityViewGenerator",
+          "string" : "Special Delivery with NASA in Silicon Valley",
+          "$id" : "ActivityViewGenerator10043",
+          "URLString" : "http:\/\/www.nasa.gov\/johnson\/HWHAP\/special-delivery",
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appDoo"
+          },
+          "$domain" : "info.appdoo-mac",
+          "bindings" : [
+            {
+              "destination" : "Scene10197InputData",
+              "destinationKeyPath" : "contents.title",
+              "sourceKeyPath" : "string",
+              "enumerableItemAccess" : false
+            },
+            {
+              "destination" : "Scene10197InputData",
+              "destinationKeyPath" : "contents.link",
+              "sourceKeyPath" : "URLString",
+              "enumerableItemAccess" : false
+            }
+          ]
+        }
+      ],
+      "viewController" : {
+        "$id" : "UIViewController10198",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem10222",
+          "title" : "Podcast",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "Podcast",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootView10224",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(27,60,140,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "name" : "Text background",
+              "borderColor" : "rgba(254,255,255,1.00)",
+              "$id" : "DrawableRectangle11845",
+              "position" : {
+                "top" : 82,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 82
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 437
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel10315",
+                  "offset" : 15,
+                  "type" : "below",
+                  "$id" : "Object11846"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 437
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(254,255,255,1.00)",
+              "cornerRadius" : 0,
+              "userInteractionEnabled" : true,
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "name" : "Player Background",
+              "borderColor" : "rgba(230,229,230,1.00)",
+              "$id" : "DrawableRectangle11988",
+              "position" : {
+                "top" : 446,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 446
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 59
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 10,
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 59
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(230,229,230,1.00)",
+              "cornerRadius" : 0,
+              "userInteractionEnabled" : true,
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "position" : {
+                "top" : 455,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 455
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 39
+                }
+              },
+              "$type" : "MoviePlayerView",
+              "backgroundPlayback" : false,
+              "hidden" : true,
+              "$id" : "MoviePlayerView10226",
+              "movieURLString" : "http:\/\/www.nasa.gov\/sites\/default\/files\/atoms\/audio\/ep20_special_delivery.mp3",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgba(230,229,230,1.00)",
+              "heightIsEditable" : true,
+              "bindings" : [
+                {
+                  "destination" : "Scene10197InputData",
+                  "destinationKeyPath" : "contents.enclosure.url",
+                  "sourceKeyPath" : "movieURLString",
+                  "enumerableItemAccess" : false
+                }
+              ],
+              "repeat" : false,
+              "sourceType" : "remote",
+              "dataProvider" : {
+                "$type" : "MoviePlayerDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "MoviePlayerView10226DataProvider",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "currentPlaybackTime",
+                  "currentPlaybackTimeString",
+                  "remainingPlaybackTimeString",
+                  "currentPlaybackProgress",
+                  "isPlaying",
+                  "isNotPlaying"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Player",
+                "objectID" : "MoviePlayerView10226"
+              },
+              "transform" : "",
+              "showsControls" : true,
+              "userInteractionEnabled" : true,
+              "name" : "Player",
+              "size" : {
+                "width" : 320,
+                "height" : 39
+              },
+              "alpha" : 1,
+              "autoresizingMask" : 10,
+              "autoplay" : true
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 486,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 486
+                },
+                "size" : {
+                  "width" : 313,
+                  "height" : 14
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel11834",
+              "textColor" : "rgba(128,127,128,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "right",
+              "userInteractionEnabled" : true,
+              "name" : "buffering...",
+              "size" : {
+                "width" : 313,
+                "height" : 14
+              },
+              "alpha" : 1,
+              "fontSize" : 10,
+              "autoresizingMask" : 10,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "buffering",
+              "numberOfLines" : 0
+            },
+            {
+              "CSSTextColor" : "rgba(27,60,140,1.00)",
+              "position" : {
+                "top" : 280,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 280
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 50
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButton10044",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "objectAction",
+                "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                "transferDataSourceID" : "Scene10197InputData",
+                "destinationSceneID" : "Scene11705",
+                "$domain" : "appDoo",
+                "objectActionID" : "perform",
+                "transfersDataAsInput" : true,
+                "type" : "objectAction",
+                "objectID" : "ActionSet11850"
+              },
+              "textAlignment" : "left",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel10316",
+                  "offset" : 5,
+                  "type" : "below",
+                  "$id" : "Object10045"
+                }
+              ],
+              "userInteractionEnabled" : true,
+              "name" : "read more",
+              "size" : {
+                "width" : 290,
+                "height" : 50
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 42,
+              "fontSize" : 16,
+              "text" : "read more..."
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 107,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 107
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 168
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel10316",
+              "textColor" : "rgba(27,60,140,1.00)",
+              "$domain" : "appDoo.iOS",
+              "bindings" : [
+                {
+                  "destination" : "Scene10197InputData",
+                  "sourceKeyPath" : "text",
+                  "destinationKeyPath" : "contents.description"
+                }
+              ],
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "",
+              "userInteractionEnabled" : true,
+              "name" : "Text",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel10315",
+                  "offset" : 40,
+                  "type" : "below",
+                  "$id" : "Object10320"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 168
+              },
+              "alpha" : 1,
+              "fontSize" : 16,
+              "autoresizingMask" : 50,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Shane Kimbrough, NASA Astronaut, and Dennis Leveson-Gower, Senior Project Scientist at NASA's Ames Research Center, talk about cargo and science going to and from the International Space Station. Houston We Have a Podcast teams up with NASA in Silicon Valley Podcast. HWHAP Episode 20.",
+              "numberOfLines" : 0
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 15,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 15
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 52
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel10315",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "bindings" : [
+                {
+                  "destination" : "Scene10197InputData",
+                  "sourceKeyPath" : "text",
+                  "destinationKeyPath" : "contents.title"
+                }
+              ],
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Headline",
+              "size" : {
+                "width" : 290,
+                "height" : 52
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Special Delivery with NASA in Silicon Valley",
+              "numberOfLines" : 0
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar10221",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Podcast",
+        "tintColor" : "rgba(27,60,140,1.00)",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$id" : "UINavigationItem10199",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "action",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItem10319",
+                "title" : "Schaltfläche",
+                "actionInfo" : {
+                  "$type" : "ActionInfo",
+                  "actionType" : "objectAction",
+                  "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                  "transferDataSourceID" : "Scene10197InputData",
+                  "destinationSceneID" : "Scene11705",
+                  "$domain" : "appDoo",
+                  "objectActionID" : "show",
+                  "transfersDataAsInput" : true,
+                  "type" : "objectAction",
+                  "objectID" : "ActivityViewGenerator10043"
+                },
+                "$domain" : "appDoo.iOS",
+                "itemType" : "systemItem"
+              },
+              {
+                "$id" : "SegmentedNavigationArrows10043",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "bindings" : [
+                  {
+                    "destination" : "Scene10197InputData",
+                    "destinationKeyPath" : "indexPath",
+                    "sourceKeyPath" : "inputDataIndexPath"
+                  }
+                ],
+                "$type" : "SegmentedNavigationArrows",
+                "$domain" : "info.appdoo-mac"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "selectedObjectIDs" : [
+        "UILabel10315"
+      ],
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scene11705",
+      "positionOnOverview" : {
+        "top" : 78,
+        "left" : 444
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "$domain" : "appDoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "objects" : [
+        {
+          "$type" : "SceneInputDataSource",
+          "location" : "local",
+          "indexPath" : {
+            "section" : 0,
+            "item" : 0,
+            "$type" : "NSIndexPath",
+            "$domain" : "appDoo.iOS"
+          },
+          "originalDataSourceID" : "RSS2DataSource10043",
+          "$id" : "SceneInputDataSource11693",
+          "URLRequest" : {
+            "$type" : "URLRequest",
+            "$domain" : "Core"
+          },
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appDoo"
+          },
+          "$domain" : "appDoo",
+          "contents" : {
+            "enclosure" : {
+              "type" : "audio\/mpeg",
+              "url" : "http:\/\/www.nasa.gov\/sites\/default\/files\/atoms\/audio\/ep20_special_delivery.mp3"
+            },
+            "title" : "Special Delivery with NASA in Silicon Valley",
+            "description" : "Shane Kimbrough, NASA Astronaut, and Dennis Leveson-Gower, Senior Project Scientist at NASA's Ames Research Center, talk about cargo and science going to and from the International Space Station. Houston We Have a Podcast teams up with NASA in Silicon Valley Podcast. HWHAP Episode 20.",
+            "link" : "http:\/\/www.nasa.gov\/johnson\/HWHAP\/special-delivery"
+          }
+        }
+      ],
+      "viewController" : {
+        "$id" : "UIViewController11694",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem11701",
+          "title" : "NASA",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "NASA",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "$id" : "SceneRootView11695",
+          "$type" : "SceneRootView",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "UIWebView11708",
+              "dataProvider" : {
+                "$type" : "WebViewDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "UIWebView11708DataProvider",
+                "actionInfo" : {
+                  "$domain" : "appDoo",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "type" : "objectAction",
+                  "$type" : "ActionInfo",
+                  "objectActionID" : ""
+                },
+                "propertiesForBindings" : [
+                  "canGoForward",
+                  "canGoBack"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Web-Browser",
+                "objectID" : "UIWebView11708"
+              },
+              "showActivityIndicator" : false,
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 504
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "URLString" : "http:\/\/www.nasa.gov\/johnson\/HWHAP\/special-delivery",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 504
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "bindings" : [
+                {
+                  "destination" : "SceneInputDataSource11693",
+                  "destinationKeyPath" : "contents.link",
+                  "sourceKeyPath" : "URLString",
+                  "enumerableItemAccess" : false
+                }
+              ],
+              "userInteractionEnabled" : true,
+              "$type" : "UIWebView"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "scrollLeft" : 0
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar11702",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "NASA",
+        "tintColor" : "rgba(27,60,140,1.00)",
+        "transform" : "",
+        "heightIsEditable" : false,
+        "alpha" : 1,
+        "items" : [
+          {
+            "$id" : "UINavigationItem11703",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItem11707",
+                "title" : "Schaltfläche",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "$domain" : "appDoo.iOS",
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "barStyle" : 0,
+        "hidden" : false,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scene10042",
+      "positionOnOverview" : {
+        "top" : 863,
+        "left" : -440
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "$domain" : "appDoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "segues" : [
+        {
+          "destinationSceneID" : "Scene10048",
+          "viewID" : "UIButton10045",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        }
+      ],
+      "hasCustomInterfaceOrientations" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "viewController" : {
+        "$id" : "UIViewController10043",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem10046",
+          "title" : "Info",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "Info",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootView10048",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 476,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 476
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 14
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel10057",
+              "textColor" : "rgba(94,94,94,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Version",
+              "size" : {
+                "width" : 290,
+                "height" : 14
+              },
+              "alpha" : 1,
+              "fontSize" : 10,
+              "autoresizingMask" : 10,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Version 1.0",
+              "numberOfLines" : 0
+            },
+            {
+              "CSSTextColor" : "rgba(204,7,52,1.00)",
+              "position" : {
+                "top" : 195,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 195
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 22
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButton10045",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "showScene",
+                "modalTransitionStyle" : "UIModalTransitionStyleFlipHorizontal",
+                "destinationSceneID" : "Scene10048",
+                "$domain" : "appDoo",
+                "objectActionID" : "",
+                "type" : "showScene"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel10050",
+                  "offset" : 20,
+                  "type" : "below",
+                  "$id" : "Object10046"
+                }
+              ],
+              "name" : "Learn more",
+              "size" : {
+                "width" : 290,
+                "height" : 22
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 42,
+              "fontSize" : 16,
+              "text" : "Learn more"
+            },
+            {
+              "$id" : "UIImageView10052",
+              "style" : {
+                "borderTopLeftRadius" : "0px",
+                "borderBottomLeftRadius" : "0px",
+                "borderBottomRightRadius" : "0px",
+                "opacity" : "1",
+                "borderTopRightRadius" : "0px"
+              },
+              "position" : {
+                "top" : 27,
+                "left" : 106
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 106,
+                  "y" : 27
+                },
+                "size" : {
+                  "width" : 108,
+                  "height" : 102
+                }
+              },
+              "$domain" : "appDoo.iOS",
+              "autoresizingMask" : 50,
+              "imageURLString" : "",
+              "contentMode" : "scaleAspectFit",
+              "transform" : "",
+              "imageURLInfo" : {
+                "remoteImageURL" : "",
+                "localImageObjectID" : "ResourceReference10043",
+                "source" : "local"
+              },
+              "highlightedImageURLInfo" : {
+                "source" : "local"
+              },
+              "size" : {
+                "width" : 108,
+                "height" : 102
+              },
+              "alpha" : 1,
+              "isReferenced" : true,
+              "hidden" : false,
+              "cornerRadius" : 0,
+              "name" : "appdoo AppIcon",
+              "$type" : "UIImageView"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 149,
+                "left" : 15
+              },
+              "fontName" : "HelveticaNeue-Medium",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 149
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 26
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel10050",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Text",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UIImageView10052",
+                  "offset" : 20,
+                  "type" : "below",
+                  "$id" : "Objectdb4ef7dcfa7142fea5dcd44052008f3c"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 26
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 50,
+              "fontFamily" : "Helvetica Neue",
+              "autoFitWidth" : false,
+              "text" : "App created with appdoo.",
+              "numberOfLines" : 0
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar10045",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Info",
+        "tintColor" : "rgba(27,60,140,1.00)",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$id" : "UINavigationItem10044",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItem10049",
+                "title" : "Schaltfläche",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "$domain" : "appDoo.iOS",
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "selectedObjectIDs" : [
+        "UILabel10057"
+      ],
+      "$type" : "Scene"
+    },
+    {
+      "$type" : "Scene",
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar10051",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "",
+        "tintColor" : "rgba(27,60,140,1.00)",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$id" : "UINavigationItem10050",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItem10056",
+                "title" : "Schaltfläche",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "$domain" : "appDoo.iOS",
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "positionOnOverview" : {
+        "top" : 1581,
+        "left" : -440
+      },
+      "viewController" : {
+        "$id" : "UIViewController10049",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem10052",
+          "title" : "",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "$id" : "SceneRootView10054",
+          "scrollLeft" : 0,
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "UIWebView10055",
+              "dataProvider" : {
+                "$type" : "WebViewDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "UIWebView10055DataProvider",
+                "actionInfo" : {
+                  "$type" : "ActionInfo",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "type" : "objectAction",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "canGoForward",
+                  "canGoBack"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Web-Browser",
+                "objectID" : "UIWebView10055"
+              },
+              "showActivityIndicator" : false,
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 504
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "URLString" : "https:\/\/appdoo.info",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 504
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "UIWebView"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "$id" : "Scene10048",
+      "v_separateStatusBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "$domain" : "appDoo.iOS",
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "hasCustomInterfaceOrientations" : false,
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      }
+    }
+  ],
+  "tabBarItemFont" : {
+    "$id" : "UIFont10031",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_",
+    "pointSize" : 10,
+    "$type" : "UIFont",
+    "$domain" : "appDoo.iOS"
+  },
+  "navigationBarFont" : {
+    "$id" : "UIFont10029",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_BOLD_",
+    "pointSize" : 17,
+    "$type" : "UIFont",
+    "$domain" : "appDoo.iOS"
+  },
+  "$domain" : "appDoo",
+  "metadata" : {
+    "launchImages" : {
+      "phone72" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "0869B0C8-DE1E-407C-933B-20330C498D2F-899-0000095719299F44.png"
+      },
+      "phoneX" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "5DFC39B9-D387-4216-9580-BE8C00A53E72-899-000009595E94EA49.png"
+      },
+      "landscape" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "6987F6DF-0698-41C0-84BD-7D1213E1185D-899-0000095BAFD94881.png"
+      },
+      "portrait" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "7F11BEC7-400B-4C77-ABB3-2D48D501D878-899-0000095B2F8A27B1.png"
+      },
+      "phone71" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "303F749D-44AB-4942-9745-B428E854D90A-899-0000095A5D014F27.png"
+      },
+      "phone40" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "83645F59-CAD1-42C8-A92D-4CCD5122347A-899-0000095659498284.png"
+      }
+    },
+    "iconImage" : {
+      "imageID" : "62E90C37-F6BD-4A3A-95C7-B6DF47D07033-2549-0000108B0DC7EDFA.png",
+      "$type" : "ImageReference",
+      "$domain" : "appDoo"
+    },
+    "editorAppearance" : {
+      "fileReferencesNodeIsExpandedInEditorOutline" : true,
+      "inspectorCurrentSegment" : 1,
+      "collapsedNewItemSections" : [
+
+      ],
+      "contentScale" : 1,
+      "historyStack" : [
+        "Scene1",
+        "Scene10197",
+        "Scene11705",
+        "Scene10197",
+        "Scene10042",
+        "Scene10197",
+        "Scene1",
+        "Scene10197",
+        "Scene10042"
+      ],
+      "inspectorCollapsedGroups" : [
+        "UILabelShadow",
+        "UIScrollViewInsets",
+        "UITableViewMargin",
+        "UITableViewSeparatorInsets",
+        "FormProcessorEvents",
+        "FormProcessorAdvanced"
+      ],
+      "heightOfNewItemsList" : 373,
+      "inspectorIsVisible" : true,
+      "elementListIsVisible" : true,
+      "globalObjectsNodeIsExpandedInEditorOutline" : true,
+      "historyStackPosition" : 8
+    },
+    "editorVersion" : 105,
+    "title" : "PodcastPlayer",
+    "formatVersion" : 105,
+    "lastObjectID" : 10041,
+    "simulatedSystemVersion" : 7,
+    "supportedInterfaceOrientations" : 30,
+    "deviceProfile" : "iPhone-Widescreen",
+    "appleAppBundlePrefix" : "",
+    "version" : "1.0",
+    "defaultLanguage" : "de",
+    "statusbarVisibility" : 0,
+    "targetedDeviceFamily" : "iOS-Universal",
+    "appleAppCategory" : "",
+    "requiresBackgroundAudioPlayback" : false,
+    "editedObject" : "Scene10042",
+    "projectID" : "",
+    "companyName" : "appsolute GmbH",
+    "windowFrame" : "285 91 960 640 0 0 1440 878 ",
+    "windowIsFullScreen" : false,
+    "rootInstance" : "TabBarController",
+    "overviewAppearance" : {
+      "contentScale" : 0.33000000000000002
+    }
+  },
+  "fileReferences" : [
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "image\/png",
+      "$id" : "ResourceReference10043",
+      "size" : 52861,
+      "resourceID" : "AE1E62F0-9780-4F3C-9AAE-5B54630CA7F3-1968-00000F6D18A78056.png",
+      "$domain" : "appDoo",
+      "shouldSync" : true,
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appDoo"
+      },
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appDoo\/Projekte\/Podcast\/appdoo-AppIcon.png",
+        "relativePath" : "..\/appdoo-AppIcon.png",
+        "modificationTime" : 1512470000,
+        "$type" : "FileInfo",
+        "$domain" : "appDoo"
+      },
+      "name" : "appdoo-AppIcon.png"
+    }
+  ],
+  "barButtonItemFont" : {
+    "$id" : "UIFont10318",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_",
+    "pointSize" : 17,
+    "$type" : "UIFont",
+    "$domain" : "appDoo.iOS"
+  }
+}
