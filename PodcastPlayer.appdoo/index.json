@@ -47,7 +47,7 @@
       "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       },
       "segues" : [
         {
@@ -266,8 +266,8 @@
                     "hidden" : false,
                     "fontSize" : 15,
                     "fontName" : "_DEFAULT_",
-                    "userInteractionEnabled" : true,
                     "autoFitWidth" : false,
+                    "userInteractionEnabled" : true,
                     "$type" : "UILabel"
                   }
                 ],
@@ -578,7 +578,7 @@
       "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       },
       "segues" : [
         {
@@ -795,9 +795,9 @@
               "alpha" : 1,
               "hidden" : false,
               "fillColor" : "rgba(254,255,255,1.00)",
+              "cornerRadius" : 0,
               "userInteractionEnabled" : true,
-              "name" : "Text background",
-              "cornerRadius" : 0
+              "name" : "Text background"
             },
             {
               "$id" : "DrawableRectangle11988",
@@ -829,9 +829,9 @@
               "alpha" : 1,
               "hidden" : false,
               "fillColor" : "rgba(230,229,230,1.00)",
+              "cornerRadius" : 0,
               "userInteractionEnabled" : true,
-              "name" : "Player Background",
-              "cornerRadius" : 0
+              "name" : "Player Background"
             },
             {
               "position" : {
@@ -878,8 +878,8 @@
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "objectActionID" : "",
-                  "type" : "objectAction",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "type" : "objectAction"
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -1219,7 +1219,7 @@
       "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       },
       "hasCustomInterfaceOrientations" : false,
       "objects" : [
@@ -1299,11 +1299,11 @@
                 },
                 "$id" : "UIWebView11708DataProvider",
                 "actionInfo" : {
-                  "type" : "objectAction",
+                  "$type" : "ActionInfo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
+                  "type" : "objectAction",
                   "objectActionID" : "",
-                  "$type" : "ActionInfo",
                   "$domain" : "appdoo"
                 },
                 "propertiesForBindings" : [
@@ -1441,7 +1441,7 @@
       "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       },
       "segues" : [
         {
@@ -1464,8 +1464,8 @@
         "title" : "",
         "viewData" : {
           "isExpandedInEditorOutline" : true,
-          "scrollLeft" : 0,
           "$id" : "SceneRootView10048",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -1827,8 +1827,8 @@
         "title" : "",
         "viewData" : {
           "isExpandedInEditorOutline" : true,
-          "scrollLeft" : 0,
           "$id" : "SceneRootView10054",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -1857,11 +1857,11 @@
                 },
                 "$id" : "UIWebView10055DataProvider",
                 "actionInfo" : {
-                  "type" : "objectAction",
+                  "$type" : "ActionInfo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
+                  "type" : "objectAction",
                   "objectActionID" : "",
-                  "$type" : "ActionInfo",
                   "$domain" : "appdoo"
                 },
                 "propertiesForBindings" : [
@@ -1925,7 +1925,7 @@
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       }
     }
   ],
@@ -2019,6 +2019,7 @@
       "globalObjectsNodeIsExpandedInEditorOutline" : true,
       "historyStackPosition" : 11
     },
+    "hidesStatusBarOnLaunch" : 0,
     "editorVersion" : 363,
     "title" : "PodcastPlayer",
     "formatVersion" : 363,
@@ -2035,7 +2036,7 @@
     "requiresBackgroundAudioPlayback" : false,
     "editedObject" : "Scene10048",
     "projectID" : "",
-    "companyName" : "appsolute GmbH",
+    "companyName" : "MAMPGmbH",
     "windowFrame" : "285 91 960 640 0 0 1440 878 ",
     "windowIsFullScreen" : false,
     "rootInstance" : "TabBarController",
