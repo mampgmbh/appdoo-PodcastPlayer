@@ -1,4 +1,4 @@
-# Podcast Player
+# appdoo - PodcastPlayer
 
 This sample app shows how to retrieve a remote RSS 2.0 feed, display its content in a List View and then play a podcast episode on each detail page.
 
